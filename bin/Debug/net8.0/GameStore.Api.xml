@@ -35,7 +35,7 @@
             <param name="Name">The name of the game. Maximum length is 50 characters.</param>
             <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
             <param name="Price">The price of the game. Must be between 1 and 100.</param>
-            <param name="ReleaseDate">The release date of the game.</param>
+            <param name="ReleaseDate">The release date of the game (YYYY-MM-DD).</param>
         </member>
         <member name="M:GameStore.Api.Dtos.CreateGameDto.#ctor(System.String,System.Int32,System.Decimal,System.DateOnly)">
             <summary>
@@ -44,7 +44,7 @@
             <param name="Name">The name of the game. Maximum length is 50 characters.</param>
             <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
             <param name="Price">The price of the game. Must be between 1 and 100.</param>
-            <param name="ReleaseDate">The release date of the game.</param>
+            <param name="ReleaseDate">The release date of the game (YYYY-MM-DD).</param>
         </member>
         <member name="P:GameStore.Api.Dtos.CreateGameDto.Name">
             <summary>The name of the game. Maximum length is 50 characters.</summary>
@@ -56,7 +56,7 @@
             <summary>The price of the game. Must be between 1 and 100.</summary>
         </member>
         <member name="P:GameStore.Api.Dtos.CreateGameDto.ReleaseDate">
-            <summary>The release date of the game.</summary>
+            <summary>The release date of the game (YYYY-MM-DD).</summary>
         </member>
         <member name="T:GameStore.Api.Dtos.UpdateGameDto">
             <summary>
@@ -65,7 +65,7 @@
             <param name="Name">The name of the game. Maximum length is 50 characters.</param>
             <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
             <param name="Price">The price of the game. Must be between 1 and 100.</param>
-            <param name="ReleaseDate">The release date of the game.</param>
+            <param name="ReleaseDate">The release date of the game (YYYY-MM-DD).</param>
         </member>
         <member name="M:GameStore.Api.Dtos.UpdateGameDto.#ctor(System.String,System.Int32,System.Decimal,System.DateOnly)">
             <summary>
@@ -74,7 +74,7 @@
             <param name="Name">The name of the game. Maximum length is 50 characters.</param>
             <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
             <param name="Price">The price of the game. Must be between 1 and 100.</param>
-            <param name="ReleaseDate">The release date of the game.</param>
+            <param name="ReleaseDate">The release date of the game (YYYY-MM-DD).</param>
         </member>
         <member name="P:GameStore.Api.Dtos.UpdateGameDto.Name">
             <summary>The name of the game. Maximum length is 50 characters.</summary>
@@ -86,7 +86,7 @@
             <summary>The price of the game. Must be between 1 and 100.</summary>
         </member>
         <member name="P:GameStore.Api.Dtos.UpdateGameDto.ReleaseDate">
-            <summary>The release date of the game.</summary>
+            <summary>The release date of the game (YYYY-MM-DD).</summary>
         </member>
         <member name="T:GameStore.Api.Endpoints.GamesEndpoints">
             <summary>

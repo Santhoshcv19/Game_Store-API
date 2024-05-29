@@ -6,10 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GameStore.Api.Endpoints;
 
+/// <summary>
+/// Provides endpoints for managing games.
+/// </summary>
 public static class GamesEndpoints
 {
     const string GetGameEndpointName = "GetGame";
 
+    /// <summary>
+    /// Maps the games endpoints.
+    /// </summary>
+    /// <param name="app">The web application.</param>
+    /// <returns>The route group builder.</returns>
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("games").WithParameterValidation();

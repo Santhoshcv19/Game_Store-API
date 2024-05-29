@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameStore.Api</name>
+    </assembly>
+    <members>
+        <member name="T:GameStore.Api.Data.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GameStore.Api.Data.Migrations.SeedGenres">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.SeedGenres.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.SeedGenres.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Data.Migrations.SeedGenres.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GameStore.Api.Dtos.CreateGameDto">
+            <summary>
+            Represents a game entity.
+            </summary>
+            <param name="Name">The name of the game. Maximum length is 50 characters.</param>
+            <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
+            <param name="Price">The price of the game. Must be between 1 and 100.</param>
+            <param name="ReleaseDate">The release date of the game.</param>
+        </member>
+        <member name="M:GameStore.Api.Dtos.CreateGameDto.#ctor(System.String,System.Int32,System.Decimal,System.DateOnly)">
+            <summary>
+            Represents a game entity.
+            </summary>
+            <param name="Name">The name of the game. Maximum length is 50 characters.</param>
+            <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
+            <param name="Price">The price of the game. Must be between 1 and 100.</param>
+            <param name="ReleaseDate">The release date of the game.</param>
+        </member>
+        <member name="P:GameStore.Api.Dtos.CreateGameDto.Name">
+            <summary>The name of the game. Maximum length is 50 characters.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.CreateGameDto.GenreId">
+            <summary>The ID of the genre. This should be a valid ID from the genres table.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.CreateGameDto.Price">
+            <summary>The price of the game. Must be between 1 and 100.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.CreateGameDto.ReleaseDate">
+            <summary>The release date of the game.</summary>
+        </member>
+        <member name="T:GameStore.Api.Dtos.UpdateGameDto">
+            <summary>
+            Represents a game entity.
+            </summary>
+            <param name="Name">The name of the game. Maximum length is 50 characters.</param>
+            <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
+            <param name="Price">The price of the game. Must be between 1 and 100.</param>
+            <param name="ReleaseDate">The release date of the game.</param>
+        </member>
+        <member name="M:GameStore.Api.Dtos.UpdateGameDto.#ctor(System.String,System.Int32,System.Decimal,System.DateOnly)">
+            <summary>
+            Represents a game entity.
+            </summary>
+            <param name="Name">The name of the game. Maximum length is 50 characters.</param>
+            <param name="GenreId">The ID of the genre. This should be a valid ID from the genres table.</param>
+            <param name="Price">The price of the game. Must be between 1 and 100.</param>
+            <param name="ReleaseDate">The release date of the game.</param>
+        </member>
+        <member name="P:GameStore.Api.Dtos.UpdateGameDto.Name">
+            <summary>The name of the game. Maximum length is 50 characters.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.UpdateGameDto.GenreId">
+            <summary>The ID of the genre. This should be a valid ID from the genres table.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.UpdateGameDto.Price">
+            <summary>The price of the game. Must be between 1 and 100.</summary>
+        </member>
+        <member name="P:GameStore.Api.Dtos.UpdateGameDto.ReleaseDate">
+            <summary>The release date of the game.</summary>
+        </member>
+        <member name="T:GameStore.Api.Endpoints.GamesEndpoints">
+            <summary>
+            Provides endpoints for managing games.
+            </summary>
+        </member>
+        <member name="M:GameStore.Api.Endpoints.GamesEndpoints.MapGamesEndpoints(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            Maps the games endpoints.
+            </summary>
+            <param name="app">The web application.</param>
+            <returns>The route group builder.</returns>
+        </member>
+        <member name="T:GameStore.Api.Entities.Game">
+            <summary>
+            Represents a game entity.
+            </summary>
+        </member>
+        <member name="P:GameStore.Api.Entities.Game.Name">
+            <summary>
+            The name of the game.
+            </summary>
+        </member>
+        <member name="P:GameStore.Api.Entities.Game.Price">
+            <summary>
+            The price of the game. Must be between $1 and $100.
+            </summary>
+        </member>
+    </members>
+</doc>

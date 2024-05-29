@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "yOO8UCd7s6RLp3WiQeY2Uc91Mf9vPcDfdyEiRnygU3g=",
+  "Hash": "9zk0HKrNJTiyNHfeDNk0rif2p+duEukcTzNnkg8vtC0=",
   "Source": "GameStore.Api",
   "BasePath": "_content/GameStore.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameStore.Api\\wwwroot",
+      "Source": "GameStore.Api",
+      "ContentRoot": "C:\\Users\\Santhosh CV\\Downloads\\dotnet projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Santhosh CV\\Downloads\\dotnet projects\\GameStore\\GameStore.Api\\wwwroot\\redoc.html",
+      "SourceId": "GameStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santhosh CV\\Downloads\\dotnet projects\\GameStore\\GameStore.Api\\wwwroot\\",
+      "BasePath": "_content/GameStore.Api",
+      "RelativePath": "redoc.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\redoc.html"
+    }
+  ]
 }
